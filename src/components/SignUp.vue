@@ -10,6 +10,7 @@
 </template>
 
 <script>
+import axios from 'axios';
 export default {
   name: 'SignUp',
   data() {
@@ -20,13 +21,19 @@ export default {
     };
   },
   methods: {
-    signUp() {
-      // Logic for signing up the user
-      console.log('User signed up:', this.name, this.email, this.password);
-      // Reset fields after sign up
-      this.name = '';
-      this.email = '';
-      this.password = '';
+    async signUp() {
+      let result = await axios.post('http://localhost:3000/users', {
+        name: this.name,
+        email: this.email,
+        password: this.password
+      });
+      console.log(result);
+      if (result.status === 201) {
+        alert('User registered successfully!');
+        localStorage.setItem('user', JSON.stringify(result.data));
+      } else {
+        alert('Failed to register user.');
+      }
     }
   },
 }

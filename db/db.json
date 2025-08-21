@@ -1,5 +1,5 @@
 {
-  "user": [
+  "users": [
     {
       "id": "b5af",
       "name": "kuntulaksun",
@@ -11,6 +11,24 @@
       "name": "asik banget",
       "email": "asik@example.com",
       "password": "password123"
+    },
+    {
+      "id": "2afc",
+      "name": "waduh",
+      "email": "ahaha@waduh.com",
+      "password": "aduhaduh"
+    },
+    {
+      "id": "ab1a",
+      "name": "lagikali",
+      "email": "lagi@kali.com",
+      "password": "kalikali"
+    },
+    {
+      "id": "8ee1",
+      "name": "mososih",
+      "email": "moso@sih.com",
+      "password": "asikinaja"
     }
   ]
 }
