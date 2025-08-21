@@ -29,8 +29,8 @@ export default {
       });
       console.log(result);
       if (result.status === 201) {
-        alert('User registered successfully!');
         localStorage.setItem('user', JSON.stringify(result.data));
+        this.$router.push({ name: 'Home' });
       } else {
         alert('Failed to register user.');
       }
