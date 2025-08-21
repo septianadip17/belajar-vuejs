@@ -1,7 +1,16 @@
 {
-  "user": [{
-    "name": "Septian Adi Pratama",
-    "email": "iay@example.com",
-    "password": "password123"
-  }]
+  "user": [
+    {
+      "id": "b5af",
+      "name": "kuntulaksun",
+      "email": "kutul@example.com",
+      "password": "password123"
+    },
+    {
+      "id": "b497",
+      "name": "asik banget",
+      "email": "asik@example.com",
+      "password": "password123"
+    }
+  ]
 }

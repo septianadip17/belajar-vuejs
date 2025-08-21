@@ -2,16 +2,33 @@
   <img class="logo" src="../assets/vue.svg" alt="logo">
   <h1>Sign Up</h1>
   <div class="register">
-    <input type="text" name="username" id="" placeholder="Enter Name">
-    <input type="email" name="email" id="" placeholder="Enter Email">
-    <input type="password" name="password" id="" placeholder="Enter Password">
-    <button>Sign Up</button>
+    <input type="text" name="username" v-model="name" placeholder="Enter Name">
+    <input type="email" name="email" v-model="email" placeholder="Enter Email">
+    <input type="password" name="password" v-model="password" placeholder="Enter Password">
+    <button v-on:click="signUp">Sign Up</button>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'SignUp'
+  name: 'SignUp',
+  data() {
+    return {
+      name: '',
+      email: '',
+      password: ''
+    };
+  },
+  methods: {
+    signUp() {
+      // Logic for signing up the user
+      console.log('User signed up:', this.name, this.email, this.password);
+      // Reset fields after sign up
+      this.name = '';
+      this.email = '';
+      this.password = '';
+    }
+  },
 }
 </script>
 
