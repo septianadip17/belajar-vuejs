@@ -29,13 +29,19 @@ export default {
       });
       console.log(result);
       if (result.status === 201) {
-        localStorage.setItem('user', JSON.stringify(result.data));
+        localStorage.setItem('user-info', JSON.stringify(result.data));
         this.$router.push({ name: 'Home' });
       } else {
         alert('Failed to register user.');
       }
     }
   },
+  mounted() {
+    let user = localStorage.getItem('user-info');
+    if (user) {
+      this.$router.push({ name: 'Home' });
+    }
+  }
 }
 </script>
 
