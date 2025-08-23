@@ -12,6 +12,17 @@
 <script>
 export default {
   name: 'Login',
+  data() {
+    return {
+      email: '',
+      password: ''
+    };
+  },
+  methods: {
+    login() {
+      console.log('Logging in with', this.email, this.password);
+    }
+  },
 }
 </script>
 
