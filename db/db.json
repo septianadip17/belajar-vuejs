@@ -47,6 +47,12 @@
       "name": "superman",
       "email": "superman@marvel.com",
       "password": "super123"
+    },
+    {
+      "id": "098e",
+      "name": "iay",
+      "email": "iay@kuy.com",
+      "password": "iay123"
     }
   ]
 }
