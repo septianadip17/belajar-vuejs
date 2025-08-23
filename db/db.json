@@ -1,6 +1,5 @@
 {
-  "users": [
-    {
+  "users": [{
       "id": "b5af",
       "name": "kuntulaksun",
       "email": "kutul@example.com",
@@ -53,6 +52,26 @@
       "name": "iay",
       "email": "iay@kuy.com",
       "password": "iay123"
+    }
+  ],
+  "restaurants": [
+    {
+      "id": "1",
+      "name": "Burger King",
+      "contact": "123-456-7890",
+      "address": "New York sector 1"
+    },
+    {
+      "id": "2",
+      "name": "Dominos Pizza",
+      "contact": "987-654-3210",
+      "address": "Los Angeles sector 2"
+    },
+    {
+      "id": "3",
+      "name": "KFC",
+      "contact": "555-555-5555",
+      "address": "Chicago sector 3"
     }
   ]
 }
