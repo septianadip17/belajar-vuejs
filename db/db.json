@@ -15,34 +15,16 @@
   ],
   "restaurants": [
     {
-      "name": "Burger King meruyung",
-      "address": "New York sector 1",
-      "contact": "123-456-7890",
-      "id": "1"
-    },
-    {
-      "id": "2",
-      "name": "Dominos Pizza",
-      "contact": "987-654-3210",
-      "address": "Los Angeles sector 2"
-    },
-    {
-      "name": "KFC Krukut",
-      "address": "Chicago sector 3",
-      "contact": "555-555-5555",
-      "id": "3"
-    },
-    {
-      "id": "418f",
-      "name": "Starlink",
-      "address": "jl. sudirman",
-      "contact": "123123123"
-    },
-    {
-      "id": "4a9b",
+      "id": "9233",
       "name": "RM Padang",
       "address": "Jl. Minang Kabau 25",
-      "contact": "23098123"
+      "contact": "12345612"
+    },
+    {
+      "id": "c18b",
+      "name": "KFC",
+      "address": "jl. kfc 123",
+      "contact": "675456373"
     }
   ]
 }
