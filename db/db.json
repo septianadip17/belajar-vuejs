@@ -15,10 +15,10 @@
   ],
   "restaurants": [
     {
-      "id": "1",
-      "name": "Burger King",
+      "name": "Burger King meruyung",
+      "address": "New York sector 1",
       "contact": "123-456-7890",
-      "address": "New York sector 1"
+      "id": "1"
     },
     {
       "id": "2",
@@ -27,10 +27,10 @@
       "address": "Los Angeles sector 2"
     },
     {
-      "id": "3",
-      "name": "KFC",
+      "name": "KFC Krukut",
+      "address": "Chicago sector 3",
       "contact": "555-555-5555",
-      "address": "Chicago sector 3"
+      "id": "3"
     },
     {
       "id": "418f",

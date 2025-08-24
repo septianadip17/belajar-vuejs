@@ -7,12 +7,16 @@
       <th>Name</th>
       <th>Contact</th>
       <th>Address</th>
+      <th>Actions</th>
     </tr>
     <tr v-for="item in restaurants" :key="item.id">
       <td>{{ item.id }}</td>
       <td>{{ item.name }}</td>
       <td>{{ item.contact }}</td>
       <td>{{ item.address }}</td>
+      <td>
+        <router-link :to="'/update/' + item.id">Update</router-link>
+      </td>
     </tr>
   </table>
 </template>
@@ -34,8 +38,8 @@ export default {
   async mounted() {
     let user = localStorage.getItem('user-info');
     this.name = JSON.parse(user).name;
-    console.log(this.name);
-    console.log(user);
+    // console.log(this.name);
+    // console.log(user);
     if (!user) {
       this.$router.push({ name: 'SignUp' });
     }

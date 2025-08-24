@@ -29,7 +29,7 @@ body{
   transition: filter 300ms;
 }
 
-.register input, .login input, .add input {
+.register input, .login input, .add input, .update input {
   width: 300px;
   height: 40px;
   padding-left: 20px;
@@ -40,7 +40,7 @@ body{
   border: 1px solid skyblue;
 }
 
-.register button, .login button, .add button {
+.register button, .login button, .add button, .update button {
   width: 320px;
   height: 40px;
   border: 1px solid skyblue;
