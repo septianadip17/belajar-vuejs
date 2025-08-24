@@ -1,57 +1,16 @@
 {
-  "users": [{
-      "id": "b5af",
+  "users": [
+    {
+      "id": "1",
       "name": "kuntulaksun",
       "email": "kutul@example.com",
       "password": "password123"
     },
     {
-      "id": "b497",
+      "id": "2",
       "name": "asik banget",
       "email": "asik@example.com",
       "password": "password123"
-    },
-    {
-      "id": "2afc",
-      "name": "waduh",
-      "email": "ahaha@waduh.com",
-      "password": "aduhaduh"
-    },
-    {
-      "id": "ab1a",
-      "name": "lagikali",
-      "email": "lagi@kali.com",
-      "password": "kalikali"
-    },
-    {
-      "id": "8ee1",
-      "name": "mososih",
-      "email": "moso@sih.com",
-      "password": "asikinaja"
-    },
-    {
-      "id": "74f3",
-      "name": "rehana",
-      "email": "rehana@reh.co.uk",
-      "password": "rehana123"
-    },
-    {
-      "id": "5dac",
-      "name": "bLssin9",
-      "email": "uhuy@iay.com",
-      "password": "iay123"
-    },
-    {
-      "id": "adc7",
-      "name": "superman",
-      "email": "superman@marvel.com",
-      "password": "super123"
-    },
-    {
-      "id": "098e",
-      "name": "iay",
-      "email": "iay@kuy.com",
-      "password": "iay123"
     }
   ],
   "restaurants": [
@@ -72,6 +31,18 @@
       "name": "KFC",
       "contact": "555-555-5555",
       "address": "Chicago sector 3"
+    },
+    {
+      "id": "418f",
+      "name": "Starlink",
+      "address": "jl. sudirman",
+      "contact": "123123123"
+    },
+    {
+      "id": "4a9b",
+      "name": "RM Padang",
+      "address": "Jl. Minang Kabau 25",
+      "contact": "23098123"
     }
   ]
 }

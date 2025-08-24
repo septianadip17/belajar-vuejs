@@ -34,6 +34,8 @@ export default {
   async mounted() {
     let user = localStorage.getItem('user-info');
     this.name = JSON.parse(user).name;
+    console.log(this.name);
+    console.log(user);
     if (!user) {
       this.$router.push({ name: 'SignUp' });
     }
@@ -45,6 +47,9 @@ export default {
 </script>
 
 <style>
+table {
+  margin: auto;
+}
 td {
   width: 160px;
   height: 40px;
