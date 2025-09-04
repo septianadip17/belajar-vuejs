@@ -25,6 +25,12 @@
       "name": "KFC",
       "address": "jl. kfc 123",
       "contact": "675456373"
+    },
+    {
+      "id": "5683",
+      "name": "Warkop Bu Nani",
+      "address": "Jl. Nusantara No.12",
+      "contact": "12121212"
     }
   ]
 }
