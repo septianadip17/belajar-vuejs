@@ -11,6 +11,12 @@
       "name": "asik banget",
       "email": "asik@example.com",
       "password": "password123"
+    },
+    {
+      "id": "a549",
+      "name": "septian",
+      "email": "septian@septi.com",
+      "password": "septi"
     }
   ],
   "restaurants": [
